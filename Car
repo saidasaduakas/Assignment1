@@ -1,0 +1,11 @@
+package com.company;
+
+public class Bus extends Transport{
+    public Bus(){
+        super(new DriveByTire(),new VoiceByCars());
+    }
+    @Override
+    public void display(){
+        System.out.println("I am a bus");
+    }
+}
