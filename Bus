@@ -1,0 +1,11 @@
+package com.company;
+
+public class Car extends Transport{
+    public Car(){
+        super(new DriveByTire(),new VoiceByCars());
+    }
+    @Override
+    public void display(){
+        System.out.println("I am a car");
+    }
+}
