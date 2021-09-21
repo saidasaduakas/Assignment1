@@ -1,0 +1,11 @@
+package com.company;
+
+public class Plane extends Transport{
+    public Plane(){
+        super(new DriveByEngine(), new VoiceOfPlane());
+    }
+    @Override
+    public void display(){
+        System.out.println("I am a plane");
+    }
+}
