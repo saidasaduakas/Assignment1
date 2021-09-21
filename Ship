@@ -1,0 +1,11 @@
+package com.company;
+
+public class Ship extends Transport{
+    public Ship(){
+        super(new DriveByPaddle(), new VoiceofWater());
+    }
+    @Override
+    public void display(){
+        System.out.println("I am a ship");
+    }
+}
