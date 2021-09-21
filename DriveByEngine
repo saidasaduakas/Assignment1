@@ -1,0 +1,8 @@
+package com.company;
+
+public class DriveByEngine implements DriveBehaviour{
+    @Override
+    public void drive(){
+        System.out.println("I am flying");
+    }
+}
